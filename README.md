@@ -1,3 +1,8 @@
+> **Note**
+> This is an exercise from the [Joy of React](https://courses.joshwcomeau.com/joy-of-react) course by [Josh Comeau](https://www.joshwcomeau.com/). I have taken the course and completed the exercise. I am keeping this repository for future reference, with the original README.md file below.
+
+<hr>
+
 # Toast Component Project
 
 ## Joy of React, Project II
