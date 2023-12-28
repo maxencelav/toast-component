@@ -101,6 +101,10 @@
   width: 100px;
 }
 
+.radioWrapper input {
+  accent-color: hsl(250deg 80% 60%);
+}
+
 .messageInput {
   display: block;
   width: 100%;
