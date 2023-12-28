@@ -22,8 +22,12 @@ function ToastProvider({children}) {
     setToasts(toasts.filter((toast) => toast.id !== id));
   }
 
+  const dismissAllToasts = () => {
+    setToasts([]);
+  }
+
   return (
-    <ToastContext.Provider value={{toasts, addToast, dismissToast}}>
+    <ToastContext.Provider value={{toasts, addToast, dismissToast, dismissAllToasts}}>
       {children}
     </ToastContext.Provider>
   );
